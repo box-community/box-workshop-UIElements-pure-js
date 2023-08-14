@@ -13,7 +13,7 @@ Full documentation can be found [here](https://developer.box.com/guides/embed/ui
 Create a `picker.js` file under the `js` folder of the project and add the following code:
 ```javascript
 var folder_id = '0';
-var accessToken = 'PdTMIYoVtqaIPFc91pJep43aE3SdLJP2';
+var accessToken = 'YOUR DEVELOPER ACCESS TOKEN';
 
 options = {
     'container': '.picker',
