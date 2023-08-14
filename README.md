@@ -14,12 +14,9 @@ Workshop on hot to use the Box UI Elements in a pure HTML Javascript environment
 3. Making sure you're logged in navigate to the [Box Developer Console](https://app.box.com/developers/console). This will activate your developer account.
 4. Create a new Box application. Select Custom App, fill in the form and then click Next.
 5. Select User Authentication (OAuth 2.0) and then click Create App.
-6. Scroll to Redirect URIs and add the following redirect URI:
-    - http://127.0.0.1:5000/callback
 7. Check all boxes in application scopes.
-    - (or only what you think will be necessary)
 6. Scroll to allowed origins and add the following URI:
-    - http://127.0.0.1:5000
+    - http://localhost:8000
 8. Click Save Changes.
 9. Go back up and click generate a developer token.
     - Take note of the token, you will need it later.
@@ -55,3 +52,10 @@ You'll find the workshop exercises in the [workshops](workshops) folder.
 * Uploader
 * Preview
 * Sidebar
+
+## Running the samples
+You'll need some sort of web server to run the samples. The easiest way is to use the python SimpleHTTPServer module.
+
+```bash
+python3 -m http.server 8000
+```
