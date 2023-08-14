@@ -1,0 +1,168 @@
+body,
+html {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    border: 0 none;
+    /* box-sizing: border-box !important; */
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.nav {
+    flex: 0 0 200px;
+    background-color: #FBFBFC;
+    padding: 10px;
+}
+
+.element {
+    flex: 1 1 auto;
+
+}
+.explorer{
+    height: 100%;
+}
+
+.previewer{
+    height: 100%;
+}
+
+.sidebar{
+    height: 100%;
+}
+
+.uploader{
+    height: 100%;
+}
+
+.uploader-modal-base{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0%;
+}
+
+.upload-modal{
+    height: 100%;
+
+}
+
+.upload-overlay{
+    margin-left: 100px;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+}
+
+.picker{
+    height: 100%;
+    padding: 10px;
+}
+
+.picker-modal-base{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0%;
+}
+
+.picker-modal{
+    height: 100%;
+
+}
+
+.picker-overlay{
+        margin-left: 100px;
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #ccc;
+}
+
+
+
+.app-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    flex: 1 1 auto;
+    padding-right: 10px;
+    text-align: right;
+}
+
+header,
+footer {
+    align-items: center;
+    background-color: #FBFBFC;
+    display: flex;
+}
+
+header {
+    background: #0061D5;
+    border-bottom: 1px solid #eaeaea;
+    color: #eaeaea;
+    flex: 0 0 60px;
+    padding-left: 20px;
+}
+
+footer {
+    border-top: 1px solid #eaeaea;
+    flex: 0 0 40px;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+footer span {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav {
+    background-color: #FBFBFC;
+    border-right: 1px solid #eaeaea;
+    order: -1;
+    flex: 0 0 150px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    color: #777;
+    font-size: 14px;
+}
+
+.menu-title {
+    text-transform: uppercase;
+    color: #555;
+    margin: 15px 0;
+}
+
+
+
+a,
+a:visited {
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0061D5;
+}
+
+.nav-link.active{
+    font-weight: bold;
+}
