@@ -89,7 +89,7 @@ function sendEventToServer(eventType, e) {
     // });
 };
 ```
-To see this working open the browser console and as you select content and then press the button, you'll see the lisy of your selection.
+To see this working open the browser console and as you select content and then press the button, you'll see the list of your selection.
 ![Alt text](/images/picker_events.png)
 
 

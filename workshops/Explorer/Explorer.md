@@ -12,6 +12,9 @@ Full documentation can be found [here](https://developer.box.com/guides/embed/ui
 ### Simple root explorer with default options
 Create an `explorer.js` file under the `js` folder of the project and add the following code:
 ```javascript
+var rootFolderId = '0';
+var accessToken = 'YOUR DEVELOPER TOKEN';
+
 options = {
     'container': '.explorer',
     'currentFolderId': rootFolderId,
@@ -30,8 +33,6 @@ options = {
     'canShare': true,
     'canSetShareAccess': true,
 }
-
-// console.log('options:', options);
 
 var contentExplorer = new Box.ContentExplorer();
 console.log('ContentExplorer:', contentExplorer);
