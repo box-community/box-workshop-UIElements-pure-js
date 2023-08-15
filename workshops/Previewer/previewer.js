@@ -18,8 +18,6 @@ var options = {
     "collection": file_list,
 }
 
-// console.log('options:', options);
-
 var contentPreviewer = new Box.Preview();
 
 contentPreviewer.addListener('viewer', previewerViewer);

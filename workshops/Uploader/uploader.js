@@ -1,15 +1,12 @@
 var folder_id = '221723756896';
 var accessToken = '2u2P01WvckM3atR1lyfMdO9KJejqbHdk';
 
-options = {
+var options = {
     'container': '.uploader',
     'fileLimit': 100,
 
     // 'modal': modal,
 }
-
-
-console.log('options:', options);
 
 var contentUploader = new Box.ContentUploader();
 

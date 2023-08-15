@@ -1,7 +1,7 @@
 var folder_id = '0';
 var accessToken = 'XNLwjP2toL5ViFX2er1om0bkpHCSVgE7';
 
-options = {
+var options = {
     'container': '.picker',
 
     'sortBy': 'name',

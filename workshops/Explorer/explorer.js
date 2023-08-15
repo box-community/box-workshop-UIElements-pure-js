@@ -1,7 +1,7 @@
 var rootFolderId = '0';
 var accessToken = 'YOUR DEVELOPER TOKEN';
 
-optionsSidebar = {
+var optionsSidebar = {
     'hasActivityFeed': true,
     'hasMetadata': true,
     'hasSkills': true,
@@ -15,12 +15,12 @@ optionsSidebar = {
     },
 }
 
-optionsPreviewer = {
+var optionsPreviewer = {
     'logoUrl': 'box',
     'contentSidebarProps':optionsSidebar,
 }
 
-options = {
+var options = {
     'container': '.explorer',
     'currentFolderId': rootFolderId,
     'logoUrl': 'box',
@@ -40,8 +40,6 @@ options = {
 
     'contentPreviewProps': optionsPreviewer,
 }
-
-// console.log('options:', options);
 
 var contentExplorer = new Box.ContentExplorer();
 console.log('ContentExplorer:', contentExplorer);
