@@ -17,6 +17,15 @@ html {
     display: flex;
 }
 
+.center-image {
+    height: 500px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    border: 3px solid #dbe4ed; 
+    padding: 10px; */
+  }
+
 .nav {
     flex: 0 0 200px;
     background-color: #FBFBFC;
