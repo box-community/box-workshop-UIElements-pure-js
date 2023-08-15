@@ -25,3 +25,15 @@ function includeHTML() {
       }
     }
   };
+
+function removeAllActiveNavItems(){
+    var navItems = document.getElementsByClassName("nav-item");
+    for(var i = 0; i < navItems.length; i++){
+        navItems[i].classList.remove("active");
+    }
+}
+
+function setActiveNavItemById(id){
+    var navItem = document.getElementById(id);
+    navItem.classList.add("active");
+}

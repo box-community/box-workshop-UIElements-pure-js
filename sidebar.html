@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="css/styles.css" />
     
-    <script src="js/include_html.js"></script>
+    <script src="js/utils.js"></script>
     <title>UI Elements Demo</title>
 
 
@@ -20,7 +20,7 @@
     <script src="https://cdn01.boxcdn.net/platform/elements/17.1.0/en-US/sidebar.js"></script>
    
     </head>
-    <body>
+    <body onload = "removeAllActiveNavItems(); setActiveNavItemById('nav_sidebar')">
         <div w3-include-html="header.html"></div>
         <div class="main">
             <div class="nav" w3-include-html="nav.html"></div>
