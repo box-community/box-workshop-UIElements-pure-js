@@ -11,7 +11,7 @@ Create a `picker.js` file under the `js` folder of the project and add the follo
 var folder_id = '0';
 var accessToken = 'YOUR DEVELOPER ACCESS TOKEN';
 
-options = {
+var options = {
     'container': '.picker',
 
     'sortBy': 'name',
@@ -44,7 +44,7 @@ Notice that the Picker is showing the root folder of the Box account, and the it
 Let's have the picker allow only the selection of PDF files.
 Edit the `picker.js` file and add the following options:
 ```javascript
-options = {
+var options = {
     ...
     'extensions':['pdf','docx','xlsx']
 }
