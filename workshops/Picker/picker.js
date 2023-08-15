@@ -1,5 +1,4 @@
 var folder_id = '0';
-var accessToken = 'XNLwjP2toL5ViFX2er1om0bkpHCSVgE7';
 
 var options = {
     'container': '.picker',

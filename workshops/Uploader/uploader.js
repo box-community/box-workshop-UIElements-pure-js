@@ -1,5 +1,4 @@
 var folder_id = '221723756896';
-var accessToken = '2u2P01WvckM3atR1lyfMdO9KJejqbHdk';
 
 var options = {
     'container': '.uploader',

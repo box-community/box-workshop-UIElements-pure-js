@@ -1,4 +1,3 @@
-var accessToken = 'vdkMLmR6BTJCuo0stgp6hbk8p649VXMd';
 var file_id = '1280655635230';
 
 var file_list = [

@@ -1,5 +1,4 @@
 var rootFolderId = '0';
-var accessToken = 'YOUR DEVELOPER TOKEN';
 
 var optionsSidebar = {
     'hasActivityFeed': true,
