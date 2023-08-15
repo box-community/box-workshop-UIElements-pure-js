@@ -21,6 +21,10 @@ Workshop on how to use the Box UI Elements in a pure HTML Javascript environment
 9. Go back up and click generate a developer token.
     - Take note of the token, you will need it later.
     - This token is only valid for 60 minutes.
+    - Edit the `js/developer_token.js` file and replace the token with the one you just generated.
+```javascript
+accessToken = 'YOUR DEVELOPER TOKEN';
+```
 
 
 ## Installation and configuration
