@@ -3,10 +3,6 @@ The Box Content Picker UI Element allows developers to add support for selecting
 
 Full documentation can be found [here](https://developer.box.com/guides/embed/ui-elements/Picker/).
 
-## Concepts
-
-## Configuration
-
 ## Exercises
 
 ### Simple Picker with some options

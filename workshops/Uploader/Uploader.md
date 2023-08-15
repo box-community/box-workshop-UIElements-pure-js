@@ -3,10 +3,6 @@ The Box Content Uploader UI Element allows developers to embed an upload widget 
 
 Full documentation can be found [here](https://developer.box.com/guides/embed/ui-elements/Uploader/).
 
-## Concepts
-
-## Configuration
-
 ## Exercises
 
 ### Simple Uploader with some options

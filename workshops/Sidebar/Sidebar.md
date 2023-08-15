@@ -3,10 +3,6 @@ The Box Content Sidebar UI Element allows developers to add support for viewing 
 
 Full documentation can be found [here](https://developer.box.com/guides/embed/ui-elements/sidebar/).
 
-## Concepts
-
-## Configuration
-
 ## Exercises
 
 ### Simple Sidebar with some options

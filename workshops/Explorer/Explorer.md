@@ -3,10 +3,6 @@ The Box Content Explorer UI Element allows developers to embed a folder view of 
 
 Full documentation can be found [here](https://developer.box.com/guides/embed/ui-elements/explorer/).
 
-## Concepts
-
-## Configuration
-
 ## Exercises
 
 ### Simple root explorer with default options

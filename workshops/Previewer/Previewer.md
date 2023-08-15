@@ -3,10 +3,6 @@ The Box Content Preview UI Element allows developers to embed high quality and i
 
 Full documentation can be found [here](https://developer.box.com/guides/embed/ui-elements/preview/).
 
-## Concepts
-
-## Configuration
-
 ## Exercises
 
 ### Simple Previewer with some options
