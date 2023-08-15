@@ -92,3 +92,13 @@ To see this working open the browser console and as you select content and then 
 ### Extra credit
 * Have you noticed that the Picker is showing the root folder of the Box account? Can you change the code to only show the UIE Samples folder and below?
 * Try to implement the modal mode.
+
+## Scopes
+Below are a set of UI Element-specific scopes to go alongside Downscoping. These allow developers to enable/disable UI controls on the Content Explorer by configuring the appropriate scopes on the downscoped token. To learn more, see [Dedicated Scopes for Box UI Elements](https://developer.box.com/guides/api-calls/permissions-and-errors/scopes/).
+
+
+* Base Scope
+    * **base_picker**	Allows access to content in the folder tree based on user/file/token permissions
+* Feature Scopes
+    * **item_share**	Allows sharing of resource specified under "resource" of the Token Exchange request.
+    * **item_upload**	Allows upload in the content picker
