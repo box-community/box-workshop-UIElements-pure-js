@@ -46,6 +46,22 @@ In the example above the folder ID is 221723756896
 If you get stuck or have questions, make sure to ask on our [Box Developer Forum](https://forum.box.com)
 
 # Workshops
+## Security
+Any browser client side code is inherently insecure.
+
+This is also true for the Box UI Elements, that require an access token to be passed to them in order to work.
+
+The solution to this problem is to downscope the access token to a token that only has the necessary access level, and only to the file or folder that contains the files that the UI Elements will be working with.
+
+In this workshop we will be using a developer token, which is only valid for 60 minutes, but it has full access to the account.
+
+In a production environment you would use a downscoped token, and you would also use a server side component to generate the token.
+
+To learn more about downscoping tokens, check out the [Box Developer Documentation](https://developer.box.com/guides/authentication/tokens/downscope/)
+
+On each section you will find which scopes apply to each UI Element, or alternatively you can check the [Scopes for downscoping](https://developer.box.com/guides/api-calls/permissions-and-errors/scopes/#scopes-for-downscoping) in our documentation.
+
+## Exercises
 You'll find the workshop exercises in the [workshops](workshops) folder.
 * [Explorer](workshops/Explorer/Explorer.md)
 * [Picker](workshops/Picker/Picker.md)
