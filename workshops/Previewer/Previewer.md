@@ -12,7 +12,6 @@ In my case the file id is `1280655635230`.
 
 Create a `previewer.js` file under the `js` folder of the project and add the following code:
 ```javascript
-var accessToken = 'YOUR DEVELOPER ACCESS TOKEN';
 var file_id = '1280655635230';
 
 var options = {

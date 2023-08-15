@@ -9,7 +9,6 @@ Full documentation can be found [here](https://developer.box.com/guides/embed/ui
 Create an `explorer.js` file under the `js` folder of the project and add the following code:
 ```javascript
 var rootFolderId = '0';
-var accessToken = 'YOUR DEVELOPER TOKEN';
 
 var options = {
     'container': '.explorer',

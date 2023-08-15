@@ -10,7 +10,6 @@ Create a `uploader.js` file under the `js` folder of the project and add the fol
     
 ```javascript
 var folder_id = 'UIE SAMPLES FOLDER ID';
-var accessToken = 'YOUR DEVELOPER ACCESS TOKEN';
 
 var options = {
     'container': '.uploader',
