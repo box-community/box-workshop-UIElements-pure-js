@@ -48,10 +48,10 @@ If you get stuck or have questions, make sure to ask on our [Box Developer Forum
 # Workshops
 You'll find the workshop exercises in the [workshops](workshops) folder.
 * [Explorer](workshops/Explorer/Explorer.md)
-* Picker
-* Uploader
-* Preview
-* Sidebar
+* [Picker](workshops/Picker/Picker.md)
+* [Uploader](workshops/Uploader/Uploader.md)
+* [Preview](workshops/Previewer/Previewer.md)
+* [Sidebar](workshops/Sidebar/Sidebar.md)
 
 ## Running the samples
 You'll need some sort of web server to run the samples. The easiest way is to use the python SimpleHTTPServer module.
