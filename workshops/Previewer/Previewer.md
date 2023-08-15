@@ -15,15 +15,13 @@ Create a `previewer.js` file under the `js` folder of the project and add the fo
 var accessToken = 'YOUR DEVELOPER ACCESS TOKEN';
 var file_id = '1280655635230';
 
-options = {
+var options = {
     "container": ".previewer",
     "header": "light",
     "logoUrl": "box",
     "hasHeader": true,
     "showDownload": true,
 }
-
-// console.log('options:', options);
 
 var contentPreviewer = new Box.Preview();
 console.log('Content Previewer:', contentPreviewer);
