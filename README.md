@@ -4,7 +4,7 @@ style="margin-left:-10px;"
 width=40%;>
 
 # Box UI Elements Workshop
-Workshop on hot to use the Box UI Elements in a pure HTML Javascript environment
+Workshop on how to use the Box UI Elements in a pure HTML Javascript environment
 
 
 ## Box configuration steps
@@ -44,6 +44,11 @@ In the example above the folder ID is 221723756896
 
 ### Questions
 If you get stuck or have questions, make sure to ask on our [Box Developer Forum](https://forum.box.com)
+
+# Box UI Elements
+Box UI Elements are pre-built UI components that allow developers to add elements of the main Box web application into their own applications. They can be used to navigate through, upload, preview, and select content stored on Box and are available both as React components and framework-agnostic JavaScript libraries.
+
+Check out the [UI Elements guide](https://developer.box.com/guides/embed/ui-elements/) on our developer documentation.
 
 # Workshops
 ## Security
