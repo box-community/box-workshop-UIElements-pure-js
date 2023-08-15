@@ -11,7 +11,7 @@ Create an `explorer.js` file under the `js` folder of the project and add the fo
 var rootFolderId = '0';
 var accessToken = 'YOUR DEVELOPER TOKEN';
 
-options = {
+var options = {
     'container': '.explorer',
     'currentFolderId': rootFolderId,
     'logoUrl': 'box',
@@ -51,28 +51,28 @@ This is due to its ability to incorporate the other UI Elements, like the Previe
 
 Edit the `explorer.js` file and add the following options:
 ```javascript
-optionsSidebar = {
-        'hasActivityFeed': true,
-        'hasMetadata': true,
-        'hasSkills': true,
-        'hasVersions': true,
-        'detailsSidebarProps': {
-            'hasProperties': true,
-            'hasNotices': true,
-            'hasAccessStats': true,
-            'hasClassification': true,
-            'hasRetentionPolicy': true,
-        },
-    }
+var optionsSidebar = {
+    'hasActivityFeed': true,
+    'hasMetadata': true,
+    'hasSkills': true,
+    'hasVersions': true,
+    'detailsSidebarProps': {
+        'hasProperties': true,
+        'hasNotices': true,
+        'hasAccessStats': true,
+        'hasClassification': true,
+        'hasRetentionPolicy': true,
+    },
+}
 
-    optionsPreviewer = {
-        'logoUrl': 'box',
-        'contentSidebarProps':optionsSidebar,
-    }
+var optionsPreviewer = {
+    'logoUrl': 'box',
+    'contentSidebarProps':optionsSidebar,
+}
 ```
 Then add the `optionsPreviewer` to the `options` object:
 ```javascript
-options = {
+var options = {
     ...
 
     'contentPreviewProps': optionsPreviewer,
