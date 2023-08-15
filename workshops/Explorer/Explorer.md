@@ -161,3 +161,14 @@ To see this working open the browser console and as you select, download, etc, y
 * Point the Explorer to a different folder.
 * Play with the different options and listeners to see what you can do.
 
+## Scopes
+Below are a set of UI Element-specific scopes to go alongside Downscoping. These allow developers to enable/disable UI controls on the Content Explorer by configuring the appropriate scopes on the downscoped token. To learn more, see [Dedicated Scopes for Box UI Elements](https://developer.box.com/guides/api-calls/permissions-and-errors/scopes/).
+
+* Base Scope
+    * **base_explorer**	Allows access to content in the folder tree based on user/file/token permissions.
+* Feature Scopes
+    * **item_preview**	Automatically enables preview of the file, upon user click (requires Preview UI Element to be referenced)
+    * **item_download**	Allows files/folders contents to be downloaded
+    * **item_rename**	Allows files/folders to be renamed
+    * **item_share**	Allows sharing of resource specified under "resource" of the downscope request.
+    * **item_delete**	Allows file/folders to be deleted
