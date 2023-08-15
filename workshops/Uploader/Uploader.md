@@ -78,3 +78,10 @@ To see this working open the browser console and as you upload content, you'll s
 
 ### Extra credit
 * See if you can implement the modal mode.
+
+## Scopes
+Below are a set of UI Element-specific scopes to go alongside Downscoping. These allow developers to enable/disable UI controls on the Content Explorer by configuring the appropriate scopes on the downscoped token. To learn more, see [Dedicated Scopes for Box UI Elements](https://developer.box.com/guides/api-calls/permissions-and-errors/scopes/).
+
+
+* Base Scope
+    * **base_upload**	Allows upload into the folder specific under "resource" of the Token Exchange request.

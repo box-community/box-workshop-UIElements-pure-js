@@ -107,3 +107,16 @@ To see this working open the browser console and you'll see the events generated
 
 ### Extra credit
 * The previewer also supports a side bar, see if you can implement it.
+
+## Scopes
+Below are a set of UI Element-specific scopes to go alongside Downscoping. These allow developers to enable/disable UI controls on the Content Explorer by configuring the appropriate scopes on the downscoped token. To learn more, see [Dedicated Scopes for Box UI Elements](https://developer.box.com/guides/api-calls/permissions-and-errors/scopes/).
+
+
+* Base Scope
+    * **base_preview**	Allows the user to preview the file, nothing else
+* Feature Scopes
+    * **item_download**	Allows downloading/printing the content from the generated preview
+    * **annotation_edit**	Allow user to edit annotations (delete). 
+    Note: For highlight annotations to work, the text layer on the document needs to be enabled for the user. Text layer is disabled for all users that don't have download permissions on the file. To enable highlight annotations for a user, please ensure they have download permissions on the file.
+    * **annotation_view_all**	Allows user to view all users' annotations.
+    * **annotation_view_self**	Allows user to view their own annotations only.
