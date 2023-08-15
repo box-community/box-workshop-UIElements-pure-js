@@ -18,13 +18,6 @@ Workshop on how to use the Box UI Elements in a pure HTML Javascript environment
 6. Scroll to allowed origins and add the following URI:
     - http://localhost:8000
 8. Click Save Changes.
-9. Go back up and click generate a developer token.
-    - Take note of the token, you will need it later.
-    - This token is only valid for 60 minutes.
-    - Edit the `js/developer_token.js` file and replace the token with the one you just generated.
-```javascript
-accessToken = 'YOUR DEVELOPER TOKEN';
-```
 
 
 ## Installation and configuration
@@ -33,6 +26,17 @@ accessToken = 'YOUR DEVELOPER TOKEN';
 ```bash
 git clone git@github.com:box-community/box-workshop-UIElements-HTML.git
 cd box-workshop-UIElements-HTML
+```
+
+### Generate and set the developer token
+Navigate to your developer console, open your application, flip to configurationGo back up and click generate a developer token.
+
+![Alt text](/images/developer_token_gen.png)
+
+Edit the `js/developer_token.js` file and replace the token with the one you just generated.
+
+```javascript
+accessToken = 'YOUR DEVELOPER TOKEN';
 ```
 
 ### Upload the "./UIE Samples" folder to the root of your box account
