@@ -12,12 +12,10 @@ Create a `uploader.js` file under the `js` folder of the project and add the fol
 var folder_id = 'UIE SAMPLES FOLDER ID';
 var accessToken = 'YOUR DEVELOPER ACCESS TOKEN';
 
-options = {
+var options = {
     'container': '.uploader',
     'fileLimit': 100,
 }
-
-console.log('options:', options);
 
 var contentUploader = new Box.ContentUploader();
 
